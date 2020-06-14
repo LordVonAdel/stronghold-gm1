@@ -45,3 +45,17 @@ An image object is structured like this:
   pixelData: Array // RGBA8888
 }
 ```
+
+## Getting images out of a GM1 file
+```js
+fs.readFile(filename, (err, data) => {
+  let gm1 = new GM1();
+  gm1.import(data);
+
+  gm1.savePalletsPNG('out/pallets.png');
+
+  for (let i = 0; i < gm1.images.length; i++) {
+    gm1.savePNG(i, "out/image_" + i + ".png");
+  }
+});
+```
