@@ -1,5 +1,6 @@
 # Stronghold GM1
 This module can read GM1 and TGX files, used in the games Stronghold and Stronghold Crusader.
+More information about GM1 can be found here: https://stronghold.fandom.com/wiki/GM1_file_format
 
 ## TGX to PNG
 This example converts a TGX file to a PNG:
