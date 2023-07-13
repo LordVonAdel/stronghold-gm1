@@ -11,7 +11,7 @@
   "tags": ["TGX", "GM1", "Stronghold"],
   "dependencies": {
     "pngjs": "^5.0.0",
-    "pureimage": "^0.2.1",
+    "pureimage": "^0.2.7",
     "structron": "^0.2.2"
   }
 }
